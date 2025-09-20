@@ -1,5 +1,5 @@
 export interface IMenuInterface {
-  Id?: number;
+  id?: number;
   nombre: string;
   descripcion: string;
   precio: number;

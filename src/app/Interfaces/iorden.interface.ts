@@ -2,13 +2,12 @@ import { IClienteInterface } from "./icliente.interface";
 import { IMenuInterface } from "./imenu.interface";
 
 export interface IOrdenInterface {
-  Id?: number;
+  id?: number;
   fechaOrden: Date;
   cantidad: number;
-  total: number;
-  clienteId: number;
-  menuId: number;
-  cliente?: IClienteInterface;
-  menu?: IMenuInterface;
+  clienteid: number;
+  menuid: number;
+  //cliente?: IClienteInterface;
+  //menu?: IMenuInterface;
 
 }
