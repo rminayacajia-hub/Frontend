@@ -19,6 +19,7 @@ export class nuevocliente {
   titulo_formulario = 'Registro de nuevo cliente';
   id: number = 0;
   Editar: boolean = false;
+  clientes: any;
 
    constructor(
     private servicioCliente: RestauranteService,

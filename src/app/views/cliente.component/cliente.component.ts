@@ -11,8 +11,11 @@ import { RouterLink } from '@angular/router';
   styleUrl: './cliente.component.css'
 })
 export class ClienteComponent implements OnInit {
-  //id: any;
-    clientes: IClienteInterface[] = [];
+//clientes: any;
+
+clientes: IClienteInterface[] = [];
+
+
   
     constructor(private restauranteServicio: RestauranteService) {}
   

@@ -18,6 +18,7 @@ ordenesform: FormGroup = new FormGroup({});
   titulo_formulario = 'Registro de nuevo cliente';
   id: number = 0;
   Editar: boolean = false;
+ordenes: any;
 
    constructor(
     private servicioOrdenes: RestauranteService,
